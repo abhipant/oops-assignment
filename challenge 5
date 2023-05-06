@@ -23,7 +23,7 @@ class SavingsAccount(Account):
 #code to test
 demo1 = SavingsAccount("Ashish", 2000, 5)
 demo1.deposit(500)
-print(demo1.getBalance())   # 2500
+print(demo1.getBalance())   
 demo1.withdrawal(500)
-print(demo1.getBalance())   # 2000
-print(demo1.interestAmount())   # 100.0
+print(demo1.getBalance())   
+print(demo1.interestAmount())
